@@ -16,7 +16,6 @@ console.log("firstName:", firstName, "|",  "type:", typeof firstName);
 console.log("lastName:", lastName, "|", "type:", typeof lastName);
 console.log("gradeLevel:", gradeLevel, "|", "type:", typeof gradeLevel);
 
-
 // Example output style (you can match this format):
 // firstName: Nick | type: string
 
@@ -31,7 +30,7 @@ let userName = firstName + " " + lastName;
 // - all lowercase
 // Example: "narmstrong"
 // TODO B3: Log fullName and username
-console.log(firstName[0])
+console.log(firstName[0] + lastName)
 console.log(userName.toLowerCase())
 // Helpful hints (not required):
 // - firstName[0]
@@ -109,3 +108,4 @@ console.log(Math.round(numB));
 // TODO E6: Use Math.floor and Math.ceil on numB and log both
 console.log(Math.floor(numB));
 console.log(Math.ceil(numB));
+// console.log(Math.floor,Math.ceil(numB));
